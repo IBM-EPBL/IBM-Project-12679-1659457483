@@ -28,3 +28,7 @@ run the app.py to run the flask app
 ## Link of the deployed website:
 
 https://crude-oil-price-predictor.onrender.com/
+
+## Link for the demo link video
+
+https://drive.google.com/file/d/14IRnVnVVUTtkxxm8JilmtiKw-i4Wow6g/view?usp=sharing
