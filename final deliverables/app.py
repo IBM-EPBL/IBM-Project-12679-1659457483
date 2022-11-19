@@ -67,6 +67,9 @@ def getCrudeOilPriceCloud(prices=[]):
 
     response_scoring = requests.post('https://us-south.ml.cloud.ibm.com/ml/v4/deployments/8f848e93-fea8-40c6-a991-43c14c6329e5/predictions?version=2022-11-16', json=payload_scoring,
      headers={'Authorization': 'Bearer ' + mltoken})
+    print(response_scoring.json())
+    if "errors" in response_scoring.json():
+        return "Error in IBM Cloud"
     response = response_scoring.json()['predictions'][0]["values"]
     res = scaler.inverse_transform(response)
     return round(res[0][0],4)
