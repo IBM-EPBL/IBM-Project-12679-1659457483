@@ -32,3 +32,7 @@ https://crude-oil-price-predictor.onrender.com/
 ## Link for the demo link video
 
 https://drive.google.com/file/d/14IRnVnVVUTtkxxm8JilmtiKw-i4Wow6g/view?usp=sharing
+
+## demo YouTube link
+
+https://youtu.be/ippu7rPWVSI
